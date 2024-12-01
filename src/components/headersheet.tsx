@@ -18,8 +18,8 @@ import {
 <SheetHeader>
 <SheetTitle className="text-[#1f4676]  font-thin text-3xl mb-3 flex justify-center">GET TO KNOW</SheetTitle>
 <SheetDescription className="flex flex-col">
-  <button><Link href={"/serviceselection"} className="text-xl font text-[#d4d3ca] mt-9 px-10 hover:text-[#1f4676] hover:bg-[#d4d3ca] py-5 bg-[#1f4676]">
-  Book Your Slot Now
+  <button><Link href={"/contact"} className="text-xl font text-[#d4d3ca] mt-9 px-5 hover:text-[#1f4676] hover:bg-[#d4d3ca] py-5 bg-[#1f4676]">
+  FOR QUERIES
   </Link>
   </button>
 </SheetDescription>
