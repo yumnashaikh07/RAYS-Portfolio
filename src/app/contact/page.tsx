@@ -131,7 +131,7 @@ export default function Contact() {
             </form>
           </div>
 
-          <div className="flex-col text-black md:h-[500px] md:w-[500px]  mx-auto  p-5">
+          <div className="flex-col text-black md:h-[500px] md:w-[500px]  mx-auto p-5">
             <h1 className="text-2xl font-bold mb-2  ">Reach Out Here</h1>
             <div className="border-t border-4 w-36 ml-4 border-[#1a1448]"></div>
             <p className="my-4 text-lg">I am Open for Work or any Suggestions!</p>
@@ -139,24 +139,24 @@ export default function Contact() {
               <li className="flex items-center">
                 <FaPhone className="text-[#4db564]" size={27}/>
                 <span className="ml-3 text-lg md:text-2xl  font-semibold">Phone:</span>
-                <span className="text-lg ml-2 text-gray-700 hover:underline">
+                <span className="font-medium  ml-2 text-gray-700 hover:underline">
                   +923132480307
                 </span>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className=" text-[#0072C6]" size={27} />
                 <span className="ml-3 text-lg md:text-2xl  font-semibold">Email:</span>
-                <span className="text-lg ml-2 text-gray-700 hover:underline">
+                <span className="font-medium ml-2 text-gray-700 hover:underline">
                 yumnashaiykh@gmail.com
                 </span>
               </li>
               <li className="flex items-center">
                 <FaLinkedin className=" text-blue-500" size={27}/>
                 <span className="ml-3 text-lg md:text-2xl font-semibold">LinkedIn:</span>
-                <span className="text-lg ml-2">
+                <span className="font-medium  ml-2">
                   <a
                     href="https://www.linkedin.com/in/yumna-shaikh-b90191337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                    className="text-gray-700 hover:underline"
+                    className="text-gray-700  hover:underline"
                   >
                     linkedin.com/yumna-shaikh
                   </a>
@@ -165,7 +165,7 @@ export default function Contact() {
               <li className="flex items-center">
                 <FaGithub className="text-[#463976]"size={27} />
                 <span className="ml-3 text-lg md:text-2xl font-semibold">Github:</span>
-                <span className="text-lg ml-2">
+                <span className="font-medium">
                   <a
                     href="https://github.com/yumnashaikh07"
                     className="text-gray-700 hover:underline">

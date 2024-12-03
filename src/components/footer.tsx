@@ -2,7 +2,7 @@ import ContactIcons from './icon';
 import Link from "next/link";
 export default function Footer (){
 return(
-  <footer className="bg-[#d4d3ca] h-auto mx-auto py-3 md:py-10">
+  <footer className="bg-[#d4d3ca]  mx-auto py-3 md:py-10">
   <section className="grid grid-cols-1 md:grid-cols-2 md:gap-x-[900px]">
     <div className="mt-5 flex justify-center md:justify-start">
       <ContactIcons />

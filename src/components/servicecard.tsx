@@ -14,7 +14,7 @@ export default function Servicecard() {
         <strong>SERVICES</strong>
       </h1>
       <section className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-between md:mx-11">
-        <div className="bg-gray-700 rounded-lg p-6  md:mx-0 mx-3   mb-4  text-white ">
+        <div className="bg-gray-700 rounded-lg p-6  mb-4  text-white ">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676] p-3 rounded-full">
               <FaPaintBrush />
@@ -27,10 +27,10 @@ export default function Servicecard() {
             navigation, ensuring they align perfectly with your brand for
             maximum engagement.
           </p>
-          <div className="h-1 bg-slate-900  rounded-full mt-3"></div>
+          <div className="h-1 mx-auto bg-slate-900  rounded-full mt-3"></div>
         </div>
 
-        <div className="bg-gray-700 rounded-lg p-6  md:mx-0 mx-3  mb-4 text-white">
+        <div className="bg-gray-700 rounded-lg p-6  mb-4 text-white">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676] p-3 rounded-full">
               <FaGlobe />
@@ -44,10 +44,10 @@ export default function Servicecard() {
             to your needs, combining functionality with aesthetic design to
             elevate your online presence.
           </p>
-          <div className="h-1 bg-slate-900 rounded-full mt-3"></div>
+          <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
         </div>
 
-        <div className="bg-gray-700 rounded-lg p-6  md:mx-0 mx-3 mb-4 text-white">
+        <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676] p-3 rounded-full">
               <FaLightbulb />
@@ -62,12 +62,12 @@ export default function Servicecard() {
             <span className="font-bold"> Digital Marketing</span> to effectively
             achieve your business goals and maximize growth potential.
           </p>
-          <div className="h-1 bg-slate-900 rounded-full mt-3"></div>
+          <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
         </div>
 
-        <div className="bg-gray-700 rounded-lg p-6  md:mx-0 mx-3   mb-4 text-white">
+        <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white">
           <div className="flex justify-center mb-4">
-            <div className="bg-[#1f4676] p-3 rounded-full">
+            <div className="bg-[#1f4676]  p-3 rounded-full">
               <FaSearch />
             </div>
           </div>
@@ -77,10 +77,10 @@ export default function Servicecard() {
             <span className="font-bold"> drive organic traffic</span> through
             keyword research, on-page optimization, and content strategies.
           </p>
-          <div className="h-1 bg-slate-900 rounded-full mt-3"></div>
+          <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
         </div>
 
-        <div className="bg-gray-700 rounded-lg p-6  md:mx-0 mx-3   mb-4 text-white">
+        <div className="bg-gray-700 rounded-lg p-6  mb-4 text-white">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676]  p-3 rounded-full">
               <FaBullhorn />
@@ -94,10 +94,10 @@ export default function Servicecard() {
             engage users, and drive actionable results for your
             <span className="font-bold"> business objectives</span>.
           </p>
-          <div className="h-1 bg-slate-900  rounded-full mt-3"></div>
+          <div className="h-1 bg-slate-900 mx-auto  rounded-full mt-3"></div>
         </div>
 
-        <div className="bg-gray-700 rounded-lg p-6  md:mx-0 mx-3  mb-4 text-white"> 
+        <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white"> 
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676]  p-3 rounded-full">
               <FaServer />
@@ -111,7 +111,7 @@ export default function Servicecard() {
             Using APIs I ensure seamless communication between your frontend and
             backend. 
           </p>
-          <div className="h-1 bg-slate-900 rounded-full mt-3"></div>
+          <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
         </div>
       </section>
     </main>

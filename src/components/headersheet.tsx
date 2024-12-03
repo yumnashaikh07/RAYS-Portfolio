@@ -11,7 +11,7 @@ import {
 
  export default function HeaderSheet (){
     return(
-      <main className=" md:hidden ">
+      <main className=" md:hidden  ">
       <Sheet>
 <SheetTrigger><Menu className=" flex items-center justify-between mx-5 " size={24}/></SheetTrigger>
 <SheetContent>

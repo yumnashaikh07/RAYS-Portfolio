@@ -5,17 +5,17 @@ export default function KeyTraits(){
             <h1 className=" text-4xl md:text-5xl mb-9 p-3 text-center ">
           <strong>KEY TRAITS</strong>
            </h1>
-           <section className="grid grid-cols-1 md:grid-cols-3  gap-4 px-4">
+           <section className="grid grid-cols-1 md:grid-cols-3 px-4">
             <div className="text-center">
                 <Image 
                 src={"/images/key3.webp"}
                 width={175}
                 height={175}
                 alt="keytraits"
-                className="mb-2 md:my-0 my-5 ml-28 border-4  border-black "/>
+                className="mb-2 md:my-0 my-5 mx-auto border-4  border-black "/>
                
                     <h3 className="font-bold font-serif p-1  text-xl md:text-2xl">Attention to Detail</h3>
-                    <p className="ml-11 ">I create user-centric web solutions with attention to detail, prioritizing usability and seamless functionality for a positive user experience.</p>  
+                    <p className="">I create user-centric web solutions with attention to detail, prioritizing usability and seamless functionality for a positive user experience.</p>  
             </div>
     
             <div className="text-center">
@@ -24,9 +24,9 @@ export default function KeyTraits(){
                 width={175}
                 height={175}
                 alt="keytraits"
-                className="mb-2 md:my-0 my-5 ml-28 border-4 border-black"/>
+                className="mb-2 md:my-0 my-5 mx-auto border-4 border-black"/>
             <h3 className="font-bold font-serif  p-1 text-xl md:text-2xl">Quick Turnaround</h3>
-                    <p className="ml-11">Quick turnaround is a core strength of mine, enabling me to complete website development and production in just one week</p>
+                    <p className="">Quick turnaround is a core strength of mine, enabling me to complete website development and production in just one week</p>
                
             </div>
             <div className="text-center">
@@ -35,10 +35,10 @@ export default function KeyTraits(){
                 width={175}
                 height={175}
                 alt="keytraits"
-                className="mb-2 md:my-0 my-5 ml-28 border-4 border-black"/>
+                className="mb-2 md:my-0 my-5 mx-auto border-4 border-black"/>
                 
                 <h3 className="font-bold font-serif p-1 text-xl md:text-2xl">Effective Communication</h3>
-                    <p className="mb-5 ml-9 ">Effective communication is a key skill of mine,  ensuring clear understanding, smooth collaboration, and successful project outcomes.</p>
+                    <p className="mb-5 ">Effective communication is a key skill of mine,  ensuring clear understanding, smooth collaboration, and successful project outcomes.</p>
                 </div>
             </section>
             
