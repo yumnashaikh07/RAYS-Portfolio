@@ -2,11 +2,13 @@ import React from "react";
 import {
   FaServer,
   FaGlobe,
-  FaLightbulb,
   FaBullhorn,
   FaPaintBrush,
-  FaSearch,
+  FaImages,
+  FaVectorSquare,FaFileImage ,FaCogs,FaVideo
 } from "react-icons/fa";
+
+
 export default function Servicecard() {
   return (
     <main className=" mx-auto md:mt-0 mt-14">
@@ -51,7 +53,7 @@ export default function Servicecard() {
         <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676]  p-3 rounded-full">
-              <FaSearch />
+            <FaFileImage />
             </div>
           </div>
           <h2 className="font-bold text-center mb-2 text-xl">
@@ -59,7 +61,7 @@ export default function Servicecard() {
           </h2>
           <p className="text-slate-300">
             I create eye-catching custom thumbnails tailored to your needs,
-            blending visual appeal with clarity to boost your content’s
+            blending visual appeal with clarity to boost your content&apos;s
             engagement.
           </p>
           <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
@@ -85,7 +87,7 @@ export default function Servicecard() {
         <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676]  p-3 rounded-full">
-              <FaServer />
+              <FaCogs />
             </div>
           </div>
           <h2 className="font-bold text-center mb-2 text-xl">
@@ -102,7 +104,7 @@ export default function Servicecard() {
         <div className="bg-gray-700 rounded-lg p-6  mb-4  text-white ">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676] p-3 rounded-full">
-              <FaPaintBrush />
+            <FaVectorSquare/>
             </div>
           </div>
           <h2 className="font-bold text-center mb-2 text-xl">LOGO Design</h2>
@@ -117,14 +119,14 @@ export default function Servicecard() {
         <div className="bg-gray-700 rounded-lg p-6  mb-4  text-white ">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676] p-3 rounded-full">
-              <FaPaintBrush />
+            < FaVideo/>
             </div>
           </div>
           <h2 className="font-bold text-center mb-2 text-xl">Video Editing</h2>
           <p className="text-slate-300">
             I craft professionally edited videos customized to your needs,
             ensuring a seamless blend of storytelling and aesthetics to enhance
-            your brand’s impact
+            your brand&apos;s impact
           </p>
           <div className="h-1 mx-auto bg-slate-900  rounded-full mt-3"></div>
         </div>
