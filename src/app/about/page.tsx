@@ -52,7 +52,7 @@ function About() {
         <div className="border-t-2 p-3 mt-7"></div>
         <div className="md:space-x-5 flex flex-col md:flex-row justify-between">
           <div className="md:ml-5  md:w-1/2">
-            <h2 className="text-3xl flex justify-center text-center font-bold md:my-3">Why ME?:</h2>
+            <h2 className="text-3xl flex justify-center text-center font-bold md:my-3">Why us?:</h2>
             <ul className="list-disc p-5 list-inside text-lg text-gray-700">
               <li className="font-bold text-gray-800">
                 Attention to Detail

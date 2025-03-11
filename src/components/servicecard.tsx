@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 export default function Servicecard() {
   return (
-    <main className=" mx-auto mt-14">
+    <main className=" mx-auto md:mt-0 mt-14">
       <h1 className=" text-4xl md:text-5xl mb-14 text-center ">
         <strong>SERVICES</strong>
       </h1>
@@ -47,35 +47,20 @@ export default function Servicecard() {
           <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
         </div>
 
-        <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white">
-          <div className="flex justify-center mb-4">
-            <div className="bg-[#1f4676] p-3 rounded-full">
-              <FaLightbulb />
-            </div>
-          </div>
-          <h2 className="font-bold text-center mb-2 text-xl">
-            Consultation Services
-          </h2>
-          <p className="text-slate-300">
-            I provide expert guidance on{" "}
-            <span className="font-bold"> Web Strategy</span> and
-            <span className="font-bold"> Digital Marketing</span> to effectively
-            achieve your business goals and maximize growth potential.
-          </p>
-          <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
-        </div>
-
+      
         <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676]  p-3 rounded-full">
               <FaSearch />
             </div>
           </div>
-          <h2 className="font-bold text-center mb-2 text-xl">SEO Service</h2>
+          <h2 className="font-bold text-center mb-2 text-xl">
+            Thumbnail Design
+          </h2>
           <p className="text-slate-300">
-            I offer tailored SEO services to enhance your online presence and
-            <span className="font-bold"> drive organic traffic</span> through
-            keyword research, on-page optimization, and content strategies.
+            I create eye-catching custom thumbnails tailored to your needs,
+            blending visual appeal with clarity to boost your content’s
+            engagement.
           </p>
           <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
         </div>
@@ -97,7 +82,7 @@ export default function Servicecard() {
           <div className="h-1 bg-slate-900 mx-auto  rounded-full mt-3"></div>
         </div>
 
-        <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white"> 
+        <div className="bg-gray-700 rounded-lg p-6 mb-4 text-white">
           <div className="flex justify-center mb-4">
             <div className="bg-[#1f4676]  p-3 rounded-full">
               <FaServer />
@@ -107,11 +92,41 @@ export default function Servicecard() {
             Backend Development
           </h2>
           <p className="text-slate-300 ">
-            I offer <span className="font-bold">Backend Development</span> services 
-            Using APIs I ensure seamless communication between your frontend and
-            backend. 
+            I offer <span className="font-bold">Backend Development</span>{" "}
+            services Using APIs I ensure seamless communication between your
+            frontend and backend.
           </p>
           <div className="h-1 mx-auto bg-slate-900 rounded-full mt-3"></div>
+        </div>
+        {/* MORE THREE OTHER THAN WEBSITE SERVICES */}
+        <div className="bg-gray-700 rounded-lg p-6  mb-4  text-white ">
+          <div className="flex justify-center mb-4">
+            <div className="bg-[#1f4676] p-3 rounded-full">
+              <FaPaintBrush />
+            </div>
+          </div>
+          <h2 className="font-bold text-center mb-2 text-xl">LOGO Design</h2>
+          <p className="text-slate-300">
+            I design unique custom logos tailored to your needs, merging
+            creativity with brand identity to establish a lasting visual
+            impression.
+          </p>
+          <div className="h-1 mx-auto bg-slate-900  rounded-full mt-3"></div>
+        </div>
+
+        <div className="bg-gray-700 rounded-lg p-6  mb-4  text-white ">
+          <div className="flex justify-center mb-4">
+            <div className="bg-[#1f4676] p-3 rounded-full">
+              <FaPaintBrush />
+            </div>
+          </div>
+          <h2 className="font-bold text-center mb-2 text-xl">Video Editing</h2>
+          <p className="text-slate-300">
+            I craft professionally edited videos customized to your needs,
+            ensuring a seamless blend of storytelling and aesthetics to enhance
+            your brand’s impact
+          </p>
+          <div className="h-1 mx-auto bg-slate-900  rounded-full mt-3"></div>
         </div>
       </section>
     </main>

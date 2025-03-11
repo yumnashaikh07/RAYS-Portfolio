@@ -7,7 +7,7 @@ export default function Home() {
     <main className="mx-auto" >
       <Herosection/>
       <section>
-        <Skill/>
+        {/* <Skill/> */}
       </section>
       <section>
         <Servicecard/>

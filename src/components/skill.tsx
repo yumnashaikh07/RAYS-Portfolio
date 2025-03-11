@@ -6,11 +6,12 @@ const skills=[
                 {name:'Next.JS' , level: 85},
                 {name:'Figma' , level: 70},
                 {name:'Wix' , level: 75},
-                {name:'HTML & CSS' , level: 85},
-                {name:'Tailwindcss' , level: 85},
-                {name:'Javascript' , level: 85},
-                {name:'MS-Word' , level: 85},
-                {name:'MS-Excel' , level: 85},
+                // {name:'HTML & CSS' , level: 85},
+                // {name:'Tailwindcss' , level: 85},
+                {name:'Canva' , level: 85},
+                {name:'Capcut' , level: 85},
+                // {name:'MS-Word' , level: 85},
+                // {name:'MS-Excel' , level: 85},
   
 ]
 export default function Skill (){

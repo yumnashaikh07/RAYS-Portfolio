@@ -13,13 +13,13 @@ return(
         <li><Link href="/" className="hover:text-[#1f4676]">Profile</Link></li>
         <li><Link href="/contact" className="hover:text-[#1f4676]">Contact</Link></li>
         <li><Link href="/about" className="hover:text-[#1f4676]">About</Link></li>
-        <li><Link href="/projects" className="hover:text-[#1f4676]">Projects</Link></li>
+        <li><Link href="/projects" className="hover:text-[#1f4676]">Work</Link></li>
       </ul>
     </nav>
 
   </section>
   <div className="text-sm flex items-center justify-center text-gray-700 mt-5">
-    © 2024 My Portfolio Website | All rights reserved
+    © 2024 Portfolio Website | All rights reserved
   </div>
   <div className="text-sm flex items-center justify-center text-gray-700 mt-2">
     Powered by RAYS Solutions

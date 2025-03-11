@@ -31,7 +31,7 @@ import {
   <div className=" border-t w-full bg-black"></div>
   <li><Link href="/about" className="hover:underline">About</Link></li>
   <div className=" border-t w-full bg-black"></div>
-  <li><Link href="/projects" className="hover:underline">Projects</Link></li>
+  <li><Link href="/projects" className="hover:underline">Work</Link></li>
 </ul>
 </SheetContent>
 </Sheet>

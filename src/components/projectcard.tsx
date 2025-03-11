@@ -8,14 +8,14 @@ interface ProjectCardProps
         title: string ,
         description: string,
         VercelLink: string,
-        GithubLink: string,
+        // GithubLink: string,
         
     }
-const ProjectCard :React.FC <ProjectCardProps>  =({image, title, description, VercelLink, GithubLink}) =>{
-    const[showGithubLink , setShowGithubLink] = useState(false);
-    const toggleGithubLink =()=>{
-        setShowGithubLink(prev => !prev)
-    };
+const ProjectCard :React.FC <ProjectCardProps>  =({image, title, description, VercelLink}) =>{
+    // const[showGithubLink , setShowGithubLink] = useState(false);
+    // const toggleGithubLink =()=>{
+    //     setShowGithubLink(prev => !prev)
+    // };
     return(
     <div className=" bg-[#1f4676] p-5 md:p-7 text-center border mx-auto shadow-2xl">
             <Image
@@ -26,7 +26,7 @@ const ProjectCard :React.FC <ProjectCardProps>  =({image, title, description, Ve
             className="object-cover mx-auto "/>
             <div className="border-2  p-3">
             <h3 className="font-bold text-base md:text-2xl my-3">{title}</h3>
-            <p className="">{description}</p>
+            <p>{description}</p>
             </div>
         <div className="mt-5 mx-auto">
             <Link href={VercelLink} legacyBehavior>
@@ -34,7 +34,7 @@ const ProjectCard :React.FC <ProjectCardProps>  =({image, title, description, Ve
                     View Live
                 </a>
             </Link>
-        <button
+        {/* <button
                 onClick={toggleGithubLink}  
                 className=" text-white font-semibold text-lg md:text-xl hover:underline ">
                 {showGithubLink ? 'Hide Github Link': 'Github Link'}
@@ -47,7 +47,7 @@ const ProjectCard :React.FC <ProjectCardProps>  =({image, title, description, Ve
                 </a>
                 </Link>
             </p>
-        )}
+        )} */}
         </div>
     </div>
     )
