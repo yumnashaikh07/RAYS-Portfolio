@@ -1,10 +1,8 @@
 import React from "react";
 import {
-  FaServer,
   FaGlobe,
   FaBullhorn,
   FaPaintBrush,
-  FaImages,
   FaVectorSquare,FaFileImage ,FaCogs,FaVideo
 } from "react-icons/fa";
 
