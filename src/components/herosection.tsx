@@ -44,7 +44,7 @@ export default function  Herosection ()
           </ul>
           </div>
           <div>
-          <button className="px-16 text-xl mt-7  py-3 items-center mr-5 md:ml-2 bg-[#1f4676]  hover:bg-[#d4d3ca] text-white font-thin">
+          <button className="px-16 text-xl mt-7  py-3 items-center mr-5 md:ml-2 bg-[#1f4676]  hover:bg-[#d4d3ca] text-white ">
             <Link href={"/contact"} >For Queries</Link></button>
           </div>
         </div>
