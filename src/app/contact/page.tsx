@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
-import { FaEnvelope, FaLinkedin } from "react-icons/fa";
 import { AiOutlineArrowDown } from "react-icons/ai";
 
 export default function Contact() {
