@@ -131,18 +131,19 @@ export default function Contact() {
             </form>
           </div>
 
-          <div className="flex-col text-black md:h-[500px] md:w-[500px]  mx-auto p-5">
+
+          {/* <div className="flex-col text-black md:h-[500px] md:w-[500px]  mx-auto p-5">
             <h1 className="text-2xl font-bold mb-2  ">Reach Out Here</h1>
             <div className="border-t border-4 w-36  border-[#1a1448]"></div>
             <p className="my-4 text-lg">Open for Work or any Suggestions!</p>
             <ul className="space-y-7 md:mt-16 mt-10">
-              {/* <li className="flex items-center">
+              <li className="flex items-center">
                 <FaPhone className="text-[#4db564]" size={27}/>
                 <span className="ml-3 text-lg md:text-2xl  font-semibold">Phone:</span>
                 <span className="font-medium  ml-2 text-gray-700 hover:underline">
                   +923132480307
                 </span>
-              </li> */}
+              </li>
               <li className="flex items-center">
                 <FaEnvelope className=" text-[#0072C6]" size={27} />
                 <span className="ml-3 text-lg md:text-2xl  font-semibold">Email:</span>
@@ -162,7 +163,7 @@ export default function Contact() {
                   </a>
                 </span>
               </li>
-              {/* <li className="flex items-center">
+              <li className="flex items-center">
                 <FaGithub className="text-[#463976]"size={27} />
                 <span className="ml-3 text-lg md:text-2xl font-semibold">Github:</span>
                 <span className="font-medium">
@@ -172,9 +173,9 @@ export default function Contact() {
                     https://github.com/yumnashaikh07
                   </a>
                 </span>
-              </li> */}
+              </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </main>
