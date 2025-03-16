@@ -29,10 +29,10 @@ export default function  Herosection ()
           <div className="bg-[#112a46] w-[195px] h-1"></div>
           {/* <h3 className="md:text-7xl text-5xl my-5 font-thin text-[#1f4676]  "> */}
             {/* WEB-DEVELOPER */}
-            <h3 className="md:text-5xl text-3xl my-3 font-thin text-[#1f4676]">
+            <h3 className="md:text-5xl text-3xl my-3  text-[#1f4676]">
             Tech<span className="text-base">&</span>Design
           </h3>
-          <div className="md:text-xl  md:ml-2 md:mt-5 text-slate-900 font-extralight">
+          <div className="md:text-xl  md:ml-2 md:mt-5 text-slate-900 ">
           {/* <p >I create tailored websites and applications that</p>
           <p >combine visual appeal with high functionality</p>  */}
           <ul><p><span  className="font-bold text-[#1f4676]">Where Creativity Meets Innovation!</span> We craft stunning visuals, dynamic videos, and seamless websites to elevate your brand’s digital presence.</p>

@@ -6,13 +6,13 @@ const ContactIcons = () => {
     <section className=" mt-3 p-5  text-black flex">
     
       <a
-        href="mailto:yumnashaiykh@gmail.com"
+        href="mailto:"
         aria-label="Email"
       >
         <FaEnvelope size={31} className="md:ml-10 text-[#4db564] hover:text-white"/>
       </a>
       <a
-        href="https://www.linkedin.com/in/yumna-shaikh-b90191337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        href=""
         target="_blank"
         rel="noopener noreferrer"
         aria-label="LinkedIn"
@@ -20,7 +20,7 @@ const ContactIcons = () => {
         <FaLinkedin size={35} className="md:ml-16 ml-10 text-blue-600 hover:text-white" />
       </a>
       {/* <a
-        href="tel:+923132480307"
+        href="tel:"
         aria-label="Phone"
       >
         <FaPhone size={31} className="md:ml-14 ml-10 text-blue-700 hover:text-white" />

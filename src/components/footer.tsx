@@ -7,7 +7,7 @@ return(
     <div className="mt-5 flex justify-center md:justify-start">
       <ContactIcons />
     </div>
-    <nav className="text-slate-900 font-bold text-center md:text-left mt-5 ml-52 md:mt-0">
+    <nav className="text-slate-900 font-bold text-center md:text-left mt-5 md:ml-52 mb-3  md:mt-0">
       <h4 className="text-2xl mt-5">QUICK LINKS:</h4>
       <ul className="font-semibold space-y-2 mt-5 text-xl">
         <li><Link href="/" className="hover:text-[#1f4676]">Profile</Link></li>
@@ -22,7 +22,7 @@ return(
     © 2024 Portfolio Website | All rights reserved
   </div>
   <div className="text-sm flex items-center justify-center text-gray-700 mt-2">
-    Powered by RAYS Solutions
+    Powered by<Link className='hover:text-white ml-1' href={"https://raysportfolio.vercel.app/" }> RAYS </Link>
   </div>
 </footer>
 )}

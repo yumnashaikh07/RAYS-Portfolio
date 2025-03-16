@@ -9,7 +9,7 @@ import {
 
 export default function Servicecard() {
   return (
-    <main className=" mx-auto md:mt-0 mt-14">
+    <main className=" mx-auto md:mt-0 md:p-0 p-5 mt-14">
       <h1 className=" text-4xl md:text-5xl mb-14 text-center ">
         <strong>SERVICES</strong>
       </h1>

@@ -2,7 +2,7 @@ import Image from "next/image"
 export default function KeyTraits(){
     return(
         <main className=" bg-[#1f4676]  md:mt-32 mx-auto md:h-[350px] ">
-            <h1 className=" text-4xl md:text-5xl mb-9 p-3 text-center ">
+            <h1 className=" text-4xl md:text-5xl md:mb-9 p-3 text-center ">
           <strong>KEY TRAITS</strong>
            </h1>
            <section className="grid grid-cols-1 md:grid-cols-3 px-4">
@@ -37,7 +37,7 @@ export default function KeyTraits(){
                 alt="keytraits"
                 className="mb-2 md:my-0 my-5 mx-auto border-4 border-black"/>
                 
-                <h3 className="font-bold font-serif p-1 text-xl md:text-2xl">Effective Communication</h3>
+                <h3 className="font-bold font-serif md:mb-0 mb-3 p-1 text-xl md:text-2xl">Effective Communication</h3>
                     {/* <p className="mb-5 ">Effective communication is a key skill of mine,  ensuring clear understanding, smooth collaboration, and successful project outcomes.</p> */}
                 </div>
             </section>
