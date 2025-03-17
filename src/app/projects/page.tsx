@@ -20,7 +20,7 @@ const Projects =
         Image:"/images/eventproject.png",
         title:"Event Planning Website",
         description:"This an Event Planning Agency Website, it was built by using NextJS Framework along tailwindCSS",
-        VercelLink:"https://event-planner-website02-yumna-shaikhs-projects.vercel.app/",
+        VercelLink:"https://event-planning-agency-website.vercel.app/",
         // GithubLink:"https://github.com/yumnashaikh07/Event-Planner-Website02",
     },
 ];

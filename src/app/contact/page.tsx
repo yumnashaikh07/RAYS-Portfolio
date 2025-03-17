@@ -2,7 +2,13 @@
 import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import { AiOutlineArrowDown } from "react-icons/ai";
-
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+import { Button } from "@/components/ui/button";
 export default function Contact() {
   const [formData, setformData] = useState({
     name: "",
@@ -129,52 +135,69 @@ export default function Contact() {
               </button>
             </form>
           </div>
+      
+  <section className="md:px-0 px-10 w-full max-w-[500px] flex-shrink-0">
+  <Accordion type="multiple" className="             ">
+    
+      <div className="md:text-3xl text-2xl font-bold  py-9 md:p-5">
+        YOUR MOST ASKED QUESTIONS HERE!
+      </div>
 
+    <AccordionItem value="item-3" className="p-3 ">
+      <AccordionTrigger className="text-xl font-bold">
+        What we Offer
+      </AccordionTrigger>
+      <AccordionContent>
+        <p>
+          We specialize in premium home décor products and personalized interior
+          design services. Whether you&apos;re looking for unique pieces to
+          enhance your space or need expert guidance to transform your home,
+          we&apos;ve got you covered.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
 
-          {/* <div className="flex-col text-black md:h-[500px] md:w-[500px]  mx-auto p-5">
-            <h1 className="text-2xl font-bold mb-2  ">Reach Out Here</h1>
-            <div className="border-t border-4 w-36  border-[#1a1448]"></div>
-            <p className="my-4 text-lg">Open for Work or any Suggestions!</p>
-            <ul className="space-y-7 md:mt-16 mt-10">
-              <li className="flex items-center">
-                <FaPhone className="text-[#4db564]" size={27}/>
-                <span className="ml-3 text-lg md:text-2xl  font-semibold">Phone:</span>
-                <span className="font-medium  ml-2 text-gray-700 hover:underline">
-                  +923132480307
-                </span>
-              </li>
-              <li className="flex items-center">
-                <FaEnvelope className=" text-[#0072C6]" size={27} />
-                <span className="ml-3 text-lg md:text-2xl  font-semibold">Email:</span>
-                <span className="font-medium ml-2 text-gray-700 hover:underline">
-                yumnashaiykh@gmail.com
-                </span>
-              </li>
-              <li className="flex items-center">
-                <FaLinkedin className=" text-blue-500" size={27}/>
-                <span className="ml-3 text-lg md:text-2xl font-semibold">LinkedIn:</span>
-                <span className="font-medium  ml-2">
-                  <a
-                    href="https://www.linkedin.com/in/yumna-shaikh-b90191337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                    className="text-gray-700  hover:underline"
-                  >
-                    linkedin.com/yumna-shaikh
-                  </a>
-                </span>
-              </li>
-              <li className="flex items-center">
-                <FaGithub className="text-[#463976]"size={27} />
-                <span className="ml-3 text-lg md:text-2xl font-semibold">Github:</span>
-                <span className="font-medium">
-                  <a
-                    href="https://github.com/yumnashaikh07"
-                    className="text-gray-700 hover:underline">
-                    https://github.com/yumnashaikh07
-                  </a>
-                </span>
-              </li>
-            </ul>
-          </div> */}
+    <AccordionItem value="item-5"  className="p-3 ">
+      <AccordionTrigger className="text-xl font-bold">
+        What makes your products and services unique?
+      </AccordionTrigger>
+      <AccordionContent>
+        <p>
+          Our products are carefully curated for quality, style, and
+          sustainability. Our interior design services focus on creating
+          functional and aesthetically pleasing spaces tailored to your
+          preferences.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
+
+    <AccordionItem value="item-7"  className="p-3 ">
+      <AccordionTrigger className="text-xl font-bold">
+        How can I contact your team?
+      </AccordionTrigger>
+      <AccordionContent>
+        <p>You can reach us through:</p>
+        <ul>
+          <li>Email: support@yourbrand.com</li>
+          <li>Phone: +1 (123) 456-7890</li>
+          <li>Social Media: @yourbrand on Instagram and Facebook</li>
+        </ul>
+      </AccordionContent>
+    </AccordionItem>
+
+    <AccordionItem value="item-9"  className="p-3 ">
+      <AccordionTrigger className="text-xl font-bold">
+        Can I request a completely customized solution?
+      </AccordionTrigger>
+      <AccordionContent>
+        <p>
+          Yes, we specialize in tailoring designs to fit your unique vision,
+          preferences.
+        </p>
+      </AccordionContent>
+    </AccordionItem>
+  </Accordion>
+</section>
         </div>
       </div>
     </main>
