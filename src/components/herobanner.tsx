@@ -4,7 +4,7 @@ import {useEffect , useState} from 'react'
 
 const texts =
 [
-    `*Welcome to my Portfolio*` ,
+    `*Welcome to RAYS Portfolio*` ,
     `#Open to Work`,
     `Lets Build something Together!`
 ];
