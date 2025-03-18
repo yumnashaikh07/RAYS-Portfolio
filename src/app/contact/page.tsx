@@ -72,7 +72,10 @@ export default function Contact() {
             )}
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="name" className="block text-sm mb-1  font-semibold">
+                <label
+                  htmlFor="name"
+                  className="block text-sm mb-1  font-semibold"
+                >
                   Name
                 </label>
                 <input
@@ -100,7 +103,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="subject" className="block text-sm  font-semibold">
+                <label
+                  htmlFor="subject"
+                  className="block text-sm  font-semibold"
+                >
                   Subject
                 </label>
                 <input
@@ -114,7 +120,10 @@ export default function Contact() {
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm  font-semibold">
+                <label
+                  htmlFor="message"
+                  className="block text-sm  font-semibold"
+                >
                   Message
                 </label>
                 <textarea
@@ -134,29 +143,32 @@ export default function Contact() {
               </button>
             </form>
           </div>
-      
-  <section className="md:px-0 px-10 w-full max-w-[500px] flex-shrink-0">
-  <Accordion type="multiple" className="             ">
-    
-      <div className="md:text-3xl text-2xl font-bold  py-9 md:p-5">
-        YOUR MOST ASKED QUESTIONS HERE!
-      </div>
 
-    <AccordionItem value="item-3" className="p-3 ">
-      <AccordionTrigger className="text-xl font-bold">
-        What we Offer
-      </AccordionTrigger>
-      <AccordionContent>
-        <p>
-          We specialize in premium home décor products and personalized interior
-          design services. Whether you&apos;re looking for unique pieces to
-          enhance your space or need expert guidance to transform your home,
-          we&apos;ve got you covered.
-        </p>
-      </AccordionContent>
-    </AccordionItem>
+          <section className="md:px-0 px-10 w-full max-w-[500px] flex-shrink-0">
+            <Accordion type="multiple" className="             ">
+              <div className="md:text-3xl text-2xl font-bold  py-9 md:p-5">
+                YOUR MOST ASKED QUESTIONS HERE!
+              </div>
 
-    <AccordionItem value="item-5"  className="p-3 ">
+              <AccordionItem value="item-3" className="p-3 ">
+                <AccordionTrigger className="text-xl font-bold">
+                  What we Offer
+                </AccordionTrigger>
+                <AccordionContent>
+                  <p>
+                    As **RAYS Tech & Design Agency**, we offer professional and
+                    creative digital solutions. We provide high-quality video
+                    editing with smooth transitions, effects, and color grading.
+                    Our web development services ensure responsive, modern, and
+                    user-friendly website designs. We create unique and
+                    impactful logo designs that align with your brand identity.
+                    Our goal is to deliver exceptional results tailored to your
+                    needs.
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+
+              {/* <AccordionItem value="item-5"  className="p-3 ">
       <AccordionTrigger className="text-xl font-bold">
         What makes your products and services unique?
       </AccordionTrigger>
@@ -168,35 +180,35 @@ export default function Contact() {
           preferences.
         </p>
       </AccordionContent>
-    </AccordionItem>
+    </AccordionItem> */}
 
-    <AccordionItem value="item-7"  className="p-3 ">
-      <AccordionTrigger className="text-xl font-bold">
-        How can I contact your team?
-      </AccordionTrigger>
-      <AccordionContent>
-        <p>You can reach us through:</p>
-        <ul>
-          <li>Email: support@yourbrand.com</li>
-          <li>Phone: +1 (123) 456-7890</li>
-          <li>Social Media: @yourbrand on Instagram and Facebook</li>
-        </ul>
-      </AccordionContent>
-    </AccordionItem>
+              <AccordionItem value="item-7" className="p-3 ">
+                <AccordionTrigger className="text-xl font-bold">
+                  How can I contact your team?
+                </AccordionTrigger>
+                <AccordionContent>
+                  <p>You can reach us through:</p>
+                  <ul>
+                    {/* <li>Email: support@yourbrand.com</li> */}
+                    {/* <li>Phone: +1 (123) 456-7890</li> */}
+                    <li>Social Media: @rays._.digital on Instagram </li>
+                  </ul>
+                </AccordionContent>
+              </AccordionItem>
 
-    <AccordionItem value="item-9"  className="p-3 ">
-      <AccordionTrigger className="text-xl font-bold">
-        Can I request a completely customized solution?
-      </AccordionTrigger>
-      <AccordionContent>
-        <p>
-          Yes, we specialize in tailoring designs to fit your unique vision,
-          preferences.
-        </p>
-      </AccordionContent>
-    </AccordionItem>
-  </Accordion>
-</section>
+              <AccordionItem value="item-9" className="p-3 ">
+                <AccordionTrigger className="text-xl font-bold">
+                  Can I request a completely customized solution?
+                </AccordionTrigger>
+                <AccordionContent>
+                  <p>
+                    Yes, we specialize in tailoring designs to fit your unique
+                    vision, preferences. Contact us for more dicussion.
+                  </p>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          </section>
         </div>
       </div>
     </main>
