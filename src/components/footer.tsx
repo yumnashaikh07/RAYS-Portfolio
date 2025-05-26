@@ -12,7 +12,7 @@ return(
       <ul className="font-semibold space-y-2 mt-5 text-xl">
         <li><Link href="/" className="hover:text-[#1f4676]">Profile</Link></li>
         <li><Link href="/contact" className="hover:text-[#1f4676]">Contact</Link></li>
-        <li><Link href="/about" className="hover:text-[#1f4676]">About</Link></li>
+        {/* <li><Link href="/about" className="hover:text-[#1f4676]">About</Link></li> */}
         <li><Link href="/projects" className="hover:text-[#1f4676]">Work</Link></li>
       </ul>
     </nav>

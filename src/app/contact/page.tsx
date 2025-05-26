@@ -17,11 +17,13 @@ export default function Contact() {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  // Initialize EmailJS with your public key
+  
   useEffect(() => {
     emailjs.init("Cp1U6sjzrRcIQYZuJ"); 
   }, []);
-
+  // useEffect(() => {
+  //   emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY|| ""); 
+  // }, []);
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const templateParams = {
@@ -31,10 +33,16 @@ export default function Contact() {
       message: formData.message,
     };
 
+    // try {
+    //   await emailjs.send(
+    //    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_KEY || "",  
+    //    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_KEY || "",  
+    //     templateParams
+    //   );
     try {
       await emailjs.send(
-        "service_umm79sr",  
-        "template_4gvmrak",  // service_3gls27k
+       "service_umm79sr",  
+       "template_4gvmrak",  
         templateParams
       );
       setSubmitted(true);
@@ -144,7 +152,7 @@ export default function Contact() {
             </form>
           </div>
 
-          <section className="md:px-0 px-10 w-full max-w-[500px] flex-shrink-0">
+          <section className=" px-10 w-full max-w-[500px] flex-shrink-0">
             <Accordion type="multiple" className="             ">
               <div className="md:text-3xl text-2xl font-bold  py-9 md:p-5">
                 YOUR MOST ASKED QUESTIONS HERE!
@@ -156,14 +164,11 @@ export default function Contact() {
                 </AccordionTrigger>
                 <AccordionContent>
                   <p>
-                    As **RAYS Tech & Design Agency**, we offer professional and
-                    creative digital solutions. We provide high-quality video
-                    editing with smooth transitions, effects, and color grading.
-                    Our web development services ensure responsive, modern, and
-                    user-friendly website designs. We create unique and
-                    impactful logo designs that align with your brand identity.
-                    Our goal is to deliver exceptional results tailored to your
-                    needs.
+                    **RAYS Tech & Design Agency** offers Video Editing,
+                    Thumbnail Design, Web Development, Web Design, and Logo
+                    Design. We create modern, user-friendly websites and
+                    visually engaging content tailored to your brand.
+                    DM us on our Instagram to know more.
                   </p>
                 </AccordionContent>
               </AccordionItem>

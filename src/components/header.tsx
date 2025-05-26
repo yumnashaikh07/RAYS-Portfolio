@@ -21,7 +21,7 @@ export default function Header() {
           <li><Link href="/" className="hover:underline">Profile</Link></li>
           <li><Link href="/contact" className="hover:underline">Contact</Link></li>
           <li><Link href="/projects" className="hover:underline">Work</Link></li>
-          <li><Link href="/about" className="hover:underline">About</Link></li>   
+          {/* <li><Link href="/about" className="hover:underline">About</Link></li>    */}
           </ul>
         </nav>
         <HeaderSheet />

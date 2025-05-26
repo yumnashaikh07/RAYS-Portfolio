@@ -28,8 +28,8 @@ import {
   <li><Link href="/profile" className="hover:underline">Profile</Link></li>
   <div className=" border-t w-full bg-black"></div>
   <li><Link href="/contact" className="hover:underline">Contact</Link></li>
-  <div className=" border-t w-full bg-black"></div>
-  <li><Link href="/about" className="hover:underline">About</Link></li>
+  {/* <div className=" border-t w-full bg-black"></div> */}
+  {/* <li><Link href="/about" className="hover:underline">About</Link></li> */}
   <div className=" border-t w-full bg-black"></div>
   <li><Link href="/projects" className="hover:underline">Work</Link></li>
 </ul>
