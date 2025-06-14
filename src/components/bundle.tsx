@@ -1,6 +1,4 @@
 import { CheckCircle, Gift } from "lucide-react";
-import { FaBullhorn } from "react-icons/fa";
-
 export default function Bundle() {
   return (
     <main

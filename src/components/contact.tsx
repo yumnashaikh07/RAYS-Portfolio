@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
-import { AiOutlineArrowDown } from "react-icons/ai";
 import {
   Accordion,
   AccordionContent,

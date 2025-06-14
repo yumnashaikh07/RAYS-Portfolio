@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 const Lottie = dynamic(() => import("react-lottie-player"), { ssr: false });
 
 export default function Herosection() {
-  const [animationData, setAnimationData] = useState<any>(null);
+  const [animationData, setAnimationData] = useState(null);
 
   useEffect(() => {
     fetch("/animation/heroanimation.json")
