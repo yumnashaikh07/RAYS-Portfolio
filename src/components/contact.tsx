@@ -67,14 +67,11 @@ export default function Contact() {
 
   return (
     <main className="mx-auto container">
-      <h1 className="font-extrabold md:text-5xl text-3xl flex justify-center my-11 ">
-        CONTACT HERE
-        <AiOutlineArrowDown className="md:ml-7" />
-      </h1>
-      <div className="md:min-h-screen flex justify-center items-center md:p-20">
-        <div className="md:w-full md:max-w-4xl flex flex-col md:flex-row bg-white shadow-2xl overflow-hidden">
-          <div className=" md:w-1/2 p-8 bg-gradient-to-r   from-[#213e9f] via-[#4762bd] via-[#3790c7]  via-[#bbbad2] via-[#c9c7bc] to-[#c9c7bc] text-black">
-            <h2 className="text-2xl font-bold mb-6">Send Message Here</h2>
+      <div className="md:min-h-screen flex justify-center items-center md:p-14">
+        <div className="md:w-full flex flex-col md:flex-row border-[1px] border-black shadow-2xl overflow-hidden">
+          <div className=" md:w-1/2 p-8 bg-transparent text-black">
+          {/* bg-gradient-to-r   from-[#213e9f] via-[#4762bd] via-[#3790c7]  via-[#bbbad2] via-[#c9c7bc] to-[#c9c7bc] */}
+            <h2 className="md:text-3xl text-2xl font-bold  text-white mb-6">Ask Here !</h2>
             {submitted && (
               <p className="mb-4 text-blue-900">Message sent successfully!</p>
             )}
@@ -82,7 +79,7 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm mb-1  font-semibold"
+                  className=" mb-1 bg-transparent text-white text-lg font-thin"
                 >
                   Name
                 </label>
@@ -91,13 +88,13 @@ export default function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full py-1 text-black"
+                  className="w-full py-1 bg-transparent border-white border-b-[1px] focus:outline-none text-white"
                   required
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-semibold">
+                <label htmlFor="email" className="mb-1 bg-transparent text-white text-lg font-thin">
                   Email
                 </label>
                 <input
@@ -105,7 +102,7 @@ export default function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full py-1 text-black"
+                  className="w-full py-1 bg-transparent border-white border-b-[1px] focus:outline-none text-white"
                   required
                 />
               </div>
@@ -113,7 +110,7 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="subject"
-                  className="block text-sm  font-semibold"
+                  className="mb-1 bg-transparent text-white text-lg font-thin"
                 >
                   Subject
                 </label>
@@ -122,7 +119,7 @@ export default function Contact() {
                   name="subject"
                   value={formData.subject}
                   onChange={handleChange}
-                  className="w-full py-1 text-black"
+                  className="w-full py-1 bg-transparent border-white border-b-[1px] focus:outline-none text-white"
                   required
                 />
               </div>
@@ -130,7 +127,7 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm  font-semibold"
+                  className="mb-1 bg-transparent text-white text-lg font-thind"
                 >
                   Message
                 </label>
@@ -138,21 +135,22 @@ export default function Contact() {
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full py-1 text-black"
-                  rows={4}
+                  className="w-full py-1 bg-transparent border-white border-b-[1px] focus:outline-none text-white"
+                  rows={3}
                   required
                 />
               </div>
               <button
-                className=" bg-[#1f4676] mx-auto flex justify-center  font-semibold text-white px-5 py-2 rounded hover:bg-[#d4d3ca]"
+                className=" bg-black mx-auto flex justify-center  font-semibold text-white px-5 py-2 rounded hover:bg-white hover:text-black hover:border-[1px] hover:border-black"
                 type="submit"
               >
                 Send Message
               </button>
+              <div className="flex md:hidden h-[1px] w-full my-9 bg-white"></div>
             </form>
           </div>
 
-          <section className=" px-10 w-full max-w-[500px] flex-shrink-0">
+          <section className=" text-white px-10 max-w-[450px] flex-shrink-0">
             <Accordion type="multiple" className="             ">
               <div className="md:text-3xl text-2xl font-bold  py-9 md:p-5">
                 YOUR MOST ASKED QUESTIONS HERE!
@@ -172,20 +170,6 @@ export default function Contact() {
                   </p>
                 </AccordionContent>
               </AccordionItem>
-
-              {/* <AccordionItem value="item-5"  className="p-3 ">
-      <AccordionTrigger className="text-xl font-bold">
-        What makes your products and services unique?
-      </AccordionTrigger>
-      <AccordionContent>
-        <p>
-          Our products are carefully curated for quality, style, and
-          sustainability. Our interior design services focus on creating
-          functional and aesthetically pleasing spaces tailored to your
-          preferences.
-        </p>
-      </AccordionContent>
-    </AccordionItem> */}
 
               <AccordionItem value="item-7" className="p-3 ">
                 <AccordionTrigger className="text-xl font-bold">

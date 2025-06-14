@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  background: linear-gradient(to right, #000000, #737373, #737373);
+
 }
 
 .hero-div{
@@ -13,21 +15,45 @@ body {
 
 
 }
-.hero-slide{
-margin-top:  50px;
-
-transform: translateX(100%); /* Start off-screen */
-animation: slideIn 3s forwards;
+.hero-slide {
+  margin-top: 50px;
+  transform: translateX(100%); /* Start off-screen */
+  animation: slideIn 3s forwards;
 }
+
+/* Faster animation on small screens */
+@media (max-width: 768px) {
+  .hero-slide {
+    animation: slideIn 1.5s forwards;
+  }
+}
+
 @keyframes slideIn {
-0%{
-  transform: translateX(100%);
-  opacity:0
-}
-100%{
-  transform: translateX(0%);
-  opacity:1
-}
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }
 
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('/fonts/GlacialIndifference-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.glacial-font {
+  font-family: 'Glacial Indifference', sans-serif;
+}
 

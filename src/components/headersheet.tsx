@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Menu } from "lucide-react";
+import { ArrowDown, Menu } from "lucide-react";
 import {
   Sheet,
   SheetContent,
@@ -11,27 +11,28 @@ import {
 
  export default function HeaderSheet (){
     return(
-      <main className=" md:hidden  ">
-      <Sheet>
-<SheetTrigger><Menu className=" flex items-center justify-between mx-5 " size={24}/></SheetTrigger>
-<SheetContent>
+      <main className=" md:hidden   ">
+      <Sheet >
+        <SheetTrigger><h1 className=" flex items-center justify-between text-2xl mx-5 my-4 glacial-font">Menu <Menu className="mt-[5px] " color="white" size={25}/></h1></SheetTrigger>
+<SheetContent className="bg-white">
 <SheetHeader>
-<SheetTitle className="text-[#1f4676]  font-thin text-3xl mb-3 flex justify-center">GET TO KNOW</SheetTitle>
-<SheetDescription className="flex flex-col">
-  <button><Link href={"/contact"} className="text-xl font text-[#d4d3ca] mt-9 px-5 hover:text-[#1f4676] hover:bg-[#d4d3ca] py-5 bg-[#1f4676]">
+<SheetTitle className="text-black mt-7 font-thin glacial-font text-xl mb-9 flex justify-center">DISCUSS YOUR PROJECT<ArrowDown size={25}/></SheetTitle>
+<SheetDescription>
+  <button><Link href={"/#contact"} className="text-xl font text-white px-5 hover:text-[#131415] hover:border-2 hover:border-black hover:bg-white py-5 bg-[#000000]">
   FOR QUERIES
-  </Link>
-  </button>
+  </Link></button>
 </SheetDescription>
 </SheetHeader>
-<ul className=" mt-24 text-[#1f4676]  text-3xl space-y-3 ">
-  <li><Link href="/profile" className="hover:underline">Profile</Link></li>
-  <div className=" border-t w-full bg-black"></div>
-  <li><Link href="/contact" className="hover:underline">Contact</Link></li>
-  {/* <div className=" border-t w-full bg-black"></div> */}
-  {/* <li><Link href="/about" className="hover:underline">About</Link></li> */}
+<ul className=" mt-14 text-black text-3xl space-y-3 ">
+  <li><Link href="#service" className="hover:underline">Services</Link></li>
   <div className=" border-t w-full bg-black"></div>
   <li><Link href="/projects" className="hover:underline">Work</Link></li>
+  <div className=" border-t w-full bg-black"></div>
+   <li><Link href="/#contact" className="hover:underline">Ask</Link></li>
+  <div className=" border-t w-full bg-black"></div>
+  <li><Link href="/pricing" className="hover:underline">Pricing</Link></li>
+  <div className=" border-t w-full bg-black"></div>
+  <li><Link href="/" className="hover:underline">Book Meeting</Link></li>
 </ul>
 </SheetContent>
 </Sheet>

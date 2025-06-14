@@ -3,25 +3,35 @@ import Image from "next/image";
 import HeaderSheet from "./headersheet";
 export default function Header() {
   return ( 
-
-    <main className="bg-[#d4d3ca] shadow-lg h-20 mx-auto">
-      <section className=" flex justify-between items-center text-[#1f4676]">
-        <div className="rounded-lg">
+    // <main className="bg-[#000000] border-[1px] border-white h-[73px]  mx-auto">
+    <main className="sticky top-0 z-50 backdrop-blur-lg  h-[73px] mx-auto shadow-md">
+      <section className=" flex justify-between  text-[#ffff]">
+        <div className="md:flex hidden rounded-lg md:ml-7 ">
           <Image
-            src={"/images/RAYS222.png"}
-            className=" mx-auto "
-            width={107}
-            height={107}
+            src={"/images/LogoRAYS(5).png"}
+            className=" md:mx-auto "
+            width={91}
+            height={91}
+            alt="logo"
+          />
+        </div>
+        <div className="md:hidden mb-3 flex rounded-lg ">
+          <Image
+            src={"/images/LogoRAYS(5).png"}
+            className=" ml-3 mt-3 mx-auto "
+            width={57}
+            height={57}
             alt="logo"
           />
         </div>
         
-        <nav className="md:flex md:justify-between md:items-center hidden  ">
-          <ul className="flex md:space-x-9 text-lg  font-semibold md:mr-11 ">
-          <li><Link href="/" className="hover:underline">Profile</Link></li>
-          <li><Link href="/contact" className="hover:underline">Contact</Link></li>
+        <nav className=" glacial-font md:flex my-5 md:justify-between hidden  ">
+          <ul className="flex md:space-x-7 text-2xl  md:mr-11 ">
+          <li><Link href="/#service" className="hover:underline">Services</Link></li>
           <li><Link href="/projects" className="hover:underline">Work</Link></li>
-          {/* <li><Link href="/about" className="hover:underline">About</Link></li>    */}
+          <li><Link href="/#contact" className="hover:underline">Ask</Link></li>
+          <li><Link href="/pricing" className="hover:underline">Pricing</Link></li>
+          <li><Link href="/calendly" className="hover:underline">Book Meeting</Link></li>
           </ul>
         </nav>
         <HeaderSheet />
