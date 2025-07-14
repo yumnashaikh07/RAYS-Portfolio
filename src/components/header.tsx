@@ -10,8 +10,8 @@ export default function Header() {
           <Image
             src={"/images/LogoRAYS(5).png"}
             className=" md:mx-auto "
-            width={91}
-            height={91}
+            width={79}
+            height={79}
             alt="logo"
           />
         </div>
@@ -26,12 +26,12 @@ export default function Header() {
         </div>
         
         <nav className=" glacial-font md:flex my-5 md:justify-between hidden  ">
-          <ul className="flex md:space-x-7 text-2xl  md:mr-11 ">
+          <ul className="flex md:space-x-7 text-xl  md:mr-11 ">
           <li><Link href="/#service" className="hover:underline">Services</Link></li>
           <li><Link href="/projects" className="hover:underline">Work</Link></li>
-          <li><Link href="/#contact" className="hover:underline">Ask</Link></li>
+          <li><Link href="/#contact"  className="hover:underline">Ask</Link></li>
           <li><Link href="/pricing" className="hover:underline">Pricing</Link></li>
-          <li><Link href="/calendly" className="hover:underline">Book Meeting</Link></li>
+          <li><Link href="https://calendly.com/raystechndesign/30min" className="border-white border-[3px] bg-[#a66cb2] rounded-full py-1 px-1   hover:bg-[#baa6c0] hover:border-[#a66cb2]">Book Meeting</Link></li>
           </ul>
         </nav>
         <HeaderSheet />

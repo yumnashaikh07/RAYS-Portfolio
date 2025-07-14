@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import {
   FaGlobe,
-  FaBullhorn,
   FaPaintBrush,
   FaVectorSquare,
   FaFileImage,
@@ -15,27 +14,22 @@ import {
 export default function Servicecard() {
   useEffect(() => {
     AOS.init({
-      duration: 700,
-      offset: 300,
+      duration: 500,
+      offset: 230,
       easing: "ease-in-out",
       once: true,
     });
   }, []);
 
   return (
-    <main
-      className="mx-auto md:mt-0 md:p-0 p-5 mt-14"
-      style={{
-        background: "linear-gradient(to right, #000000, #737373, #737373)",
-      }}
-    >
-      <h1 className="text-4xl md:text-5xl mb-7 text-center text-white font-extrabold">
+    <main className="mx-auto md:mt-0 md:p-0 p-5 mt-14">
+      <h1 className="text-4xl md:text-5xl mb-5 text-center font-extrabold text-white tracking-wide">
         SERVICES
-      </h1><h3 className="text-2xl md:text-3xl mb-3 text-center text-white font-semibold">
-  Elevating Brands Through Design & Technology
-</h3>
+      </h1>
+      <h3 className="text-2xl md:text-3xl mb-10 text-center text-white font-semibold">
+        Elevating Brands Through <span className="text-[#d38bf9] drop-shadow-[0_0_6px_#d38bf9]">Design</span> & <span className="text-[#d38bf9] drop-shadow-[0_0_6px_#d38bf9]">Technology</span>
+      </h3>
 
-      
       <section className="grid grid-cols-1 md:grid-cols-3 gap-8 md:mx-11">
         {[
           {
@@ -55,12 +49,6 @@ export default function Servicecard() {
             title: "Thumbnail Design",
             desc:
               "We craft high-converting thumbnails for YOUTUBE VIDEOS and INSTAGRAM REELS COVER. Designed to stand out, spark curiosity, and boost your content's visibility.",
-          },
-          {
-            icon: <FaBullhorn />,
-            title: "Branding",
-            desc:
-              "We shape brands through visual storytelling, COLOR PALETTE, and strategic TYPOGRAPHY. Build recognition and trust with a strong and consistent brand identity.",
           },
           {
             icon: <FaCogs />,
@@ -84,10 +72,10 @@ export default function Servicecard() {
           <div
             key={index}
             data-aos="fade-up"
-            className="bg-[#1a1a1a] rounded-xl p-6 text-white shadow hover:scale-[1.02] transition-all duration-300"
+            className="bg-black border border-white/10 backdrop-blur-xl rounded-xl p-6 text-white hover:scale-[1.03] transition-all duration-300 shadow-md shadow-[#baa6c0]/10"
           >
             <div className="flex justify-center mb-5">
-              <div className="bg-white text-black p-4 rounded-full text-xl shadow-md">
+              <div className="bg-[#d38bf9] text-white p-4 rounded-full text-xl shadow-md shadow-[#d38bf9]/30">
                 {service.icon}
               </div>
             </div>
@@ -97,7 +85,7 @@ export default function Servicecard() {
             <p className="text-[#d1d1d1] text-sm leading-relaxed text-center">
               {service.desc}
             </p>
-            <div className="h-1 bg-[#737373] mx-auto rounded-full mt-5 w-2/3" />
+            <div className="h-1 bg-[#baa6c0] mx-auto rounded-full mt-5 w-2/3" />
           </div>
         ))}
       </section>

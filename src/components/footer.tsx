@@ -15,28 +15,19 @@ export default function Footer() {
         <nav className="text-center md:mb-9 mb-0 md:text-left">
           <h4 className="text-sm font-bold tracking-widest text-[#bfbfbf] mb-2">QUICK LINKS</h4>
           <ul className="space-y-1 text-sm font-medium text-[#d1d1d1]">
-          <li><Link href="/#service" className="hover:underline">Services</Link></li>
-          <li><Link href="/projects" className="hover:underline">Work</Link></li>
-          <li><Link href="/pricingpdf" className="hover:underline">Pricing</Link></li>
-          <li><Link href="/calendly" className="hover:underline">Book Meeting</Link></li>
+          <li><Link href="/#service" className="hover:underline hover:text-[#d38bf9] hover:drop-shadow-[0_0_6px_#d38bf9]">Services</Link></li>
+          <li><Link href="/projects" className="hover:underline hover:text-[#d38bf9] hover:drop-shadow-[0_0_6px_#d38bf9]">Work</Link></li>
+          <li><Link href="/pricingpdf" className="hover:underline hover:text-[#d38bf9] hover:drop-shadow-[0_0_6px_#d38bf9]">Pricing</Link></li>
+          <li><Link href="https://calendly.com/raystechndesign/30min" className=" hover:underline-[#a66cb2] hover:text-[#d38bf9] hover:drop-shadow-[0_0_6px_#d38bf9]">Book Meeting</Link></li>
           </ul>
         </nav>
 
         {/* Footer Text */}
-      <div className="md:hidden text-center md:text-right text-sm text-[#999999] space-y-1">
-  <p>© 2024 All rights reserved.</p>
+      <div className="md:hidden text-center text-sm text-[#999999] space-y-1">
   <p>
-    Created by
-    <Link
-      href="https://raysportfolio.vercel.app/"
-      target="_blank"
-      className="ml-1 hover:text-white underline transition-colors duration-200"
-    >
-      RAYS Tech & Design
-    </Link>
+    © {new Date().getFullYear()} RAYS Tech & Design. All rights reserved.
   </p>
 </div>
-
       </section>
     </footer>
   );

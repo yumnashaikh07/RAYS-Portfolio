@@ -10,7 +10,7 @@ export default function Home() {
       <section id="service">
         <Servicecard/>
       </section>
-        <section id="contact">
+        <section id="contact" className=" scroll-mt-24">
           <Contact/>
         </section>
        <section id="bundle" >

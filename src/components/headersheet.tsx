@@ -32,7 +32,7 @@ import {
   <div className=" border-t w-full bg-black"></div>
   <li><Link href="/pricing" className="hover:underline">Pricing</Link></li>
   <div className=" border-t w-full bg-black"></div>
-  <li><Link href="/" className="hover:underline">Book Meeting</Link></li>
+  <li><Link href="https://calendly.com/raystechndesign/30min" className=" hover:underline">Book Meeting</Link></li>
 </ul>
 </SheetContent>
 </Sheet>

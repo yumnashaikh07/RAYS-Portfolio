@@ -1,12 +1,9 @@
 import { CheckCircle, Gift } from "lucide-react";
+
 export default function Bundle() {
   return (
     <main
-      className="md:mx-auto mx-5 md:mt-0 md:p-0 p-3 mt-12"
-      style={{
-        background: "linear-gradient(to right, #000000, #737373, #737373)",
-      }}
-    >
+      className="md:mx-auto mx-5 md:mt-0 md:p-0 p-3 mt-12">
       <h1 className="text-4xl md:text-5xl mb-14 text-center text-white font-extrabold tracking-wide">
         Bundle Offers
       </h1>
@@ -58,9 +55,9 @@ export default function Bundle() {
             </h2>
 
             <ul className="space-y-3 mb-5 text-gray-300">
-              {bundle.items.map((item, index) => (
-                <li key={index} className="flex gap-2 items-start font-medium">
-                  <CheckCircle size={20} className="text-[#baa6c0] mt-0.5" />
+              {bundle.items.map((item, idx) => (
+                <li key={idx} className="flex gap-2 items-start font-medium">
+                  <CheckCircle size={20} className="text-[#d38bf9] mt-0.5" />
                   {item}
                 </li>
               ))}
@@ -69,22 +66,23 @@ export default function Bundle() {
             <div className="h-1 bg-[#737373] mx-auto rounded-full mb-4 w-2/3"></div>
 
             <div className="text-center space-y-2">
-              <div className="inline-block bg-green-500/10 text-green-400 font-bold px-4 py-1 rounded-full text-lg">
+              <div className="inline-block bg-[#baa6c0]/20 text-[#a66cb2] font-bold px-4 py-1 rounded-full text-lg">
                 Bundle Price: {bundle.price}
               </div>
               <div className="text-sm text-gray-400 line-through">
                 Original: {bundle.original}
               </div>
-              <div className="text-sm text-red-400 font-semibold">
+              <div className="text-sm text-[#d38bf9] font-semibold">
                 You Save: {bundle.save}
               </div>
               {bundle.bonus && (
-                <div className="mt-2 flex items-center gap-x-3 justify-center text-sm text-green-300">
-                  <Gift size={20} className="text-green-400" />
+                <div className="mt-2 flex items-center gap-x-3 justify-center text-sm text-[#baa6c0]">
+                  <Gift size={20} className="text-[#a66cb2]" />
                   <p>{bundle.bonus}</p>
                 </div>
               )}
             </div>
+
             <a
               href={`https://mail.google.com/mail/?view=cm&fs=1&to=raystechndesign@gmail.com&su=${encodeURIComponent(
                 "Booking Request: " + bundle.title
