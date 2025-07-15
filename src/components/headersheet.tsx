@@ -24,7 +24,7 @@ import {
 </SheetDescription>
 </SheetHeader>
 <ul className=" mt-14 text-black text-3xl space-y-3 ">
-  <li><Link href="#service" className="hover:underline">Services</Link></li>
+  <li><Link href="/#service" className="hover:underline">Services</Link></li>
   <div className=" border-t w-full bg-black"></div>
   <li><Link href="/projects" className="hover:underline">Work</Link></li>
   <div className=" border-t w-full bg-black"></div>
