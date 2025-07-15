@@ -89,16 +89,12 @@ const projectData = {
   ],
 };
 
-export default function ProjectsComponent() {
-  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
+export default function Projects() {
+  const [,setLightboxImage] = useState<string | null>(null);
 
   return (
     <main
-      className="min-h-screen py-16 px-6"
-      style={{
-        background: "linear-gradient(to right, #000000, #737373, #737373)",
-      }}
-    >
+      className="min-h-screen py-16 px-6">
       <h1 className="text-4xl md:text-5xl text-white text-center font-bold mb-10 tracking-wide">
         WORK
       </h1>
@@ -123,7 +119,7 @@ export default function ProjectsComponent() {
     hover:border-[#d38bf9] hover:shadow-[0_0_15px_#d38bf9]/40
     border-[#737373] opacity-0 animate-fadeIn`}
   style={{
-    animationDelay: `${idx * 0.1}s`,
+    animationDelay: `${idx * 0.3}s`,
     animationFillMode: "forwards",
   }}
 >
@@ -131,6 +127,8 @@ export default function ProjectsComponent() {
     <Image
       src={project.Image}
       alt={project.title}
+      width={500}
+      height={300}
       className="w-full h-full object-cover hover:opacity-90 transition duration-300"
     />
   </div>
@@ -142,7 +140,7 @@ export default function ProjectsComponent() {
     rel="noopener noreferrer"
     className="inline-block text-sm font-medium text-[#d38bf9] underline hover:text-white transition duration-200"
   >
-    View Project ↗
+    View Project ↗  
   </a>
 </div>
 
