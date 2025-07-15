@@ -7,7 +7,7 @@ export default function Header() {
     <main className="sticky top-0 z-50 backdrop-blur-lg  h-[73px] mx-auto shadow-md">
       <section className=" flex justify-between  text-[#ffff]">
         <div className="md:flex hidden rounded-lg md:ml-7 ">
-          <a
+          <Link
             href="/"
             className="md:mx-auto"
           >
@@ -17,10 +17,10 @@ export default function Header() {
             width={79}
             height={79}
             alt="logo"
-          /></a>
+          /></Link>
         </div>
         <div className="md:hidden mb-3 flex rounded-lg ">
-            <a
+            <Link
             href="/"
             className="md:mx-auto"
           >
@@ -30,7 +30,7 @@ export default function Header() {
             width={57}
             height={57}
             alt="logo"
-          /></a>
+          /></Link>
         </div>
         
         <nav className=" glacial-font md:flex my-5 md:justify-between hidden  ">
