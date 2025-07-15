@@ -25,66 +25,67 @@ const projectData = {
       VercelLink: "https://ecom-project-demo.vercel.app/",
     },
   ],
-  videos: [
-    {
-      Image: "/images/video1.png",
-      title: "Fashion Reel Edit",
-      description:
-        "Cinematic color grading and fast-paced cuts for fashion content.",
-      VercelLink: "https://www.instagram.com/reel/CmockVideo01/",
-    },
-    {
-      Image: "/images/video2.png",
-      title: "Product Promo",
-      description: "Motion graphics and transitions for social product ads.",
-      VercelLink: "https://www.instagram.com/reel/CmockVideo02/",
-    },
-    {
-      Image: "/images/video3.png",
-      title: "Travel Montage",
-      description: "Fast cut edits for Instagram travel montage videos.",
-      VercelLink: "https://www.instagram.com/reel/CmockVideo03/",
-    },
-  ],
-  thumbnails: [
-    {
-      Image: "/images/thumnail1.png",
-      title: "Tech Review Thumbnail",
-      description: "Clean bold style for maximum visibility on YouTube.",
-      VercelLink: "https://www.youtube.com/watch?v=mockthumb1",
-    },
-    {
-      Image: "/images/thumnail1.png",
-      title: "Podcast Thumbnail",
-      description: "Engaging layout for YouTube talk series episodes.",
-      VercelLink: "https://www.youtube.com/watch?v=mockthumb2",
-    },
-    {
-      Image: "/images/thumb3.png",
-      title: "Tutorial Thumbnail",
-      description:
-        "Step-by-step style tutorial graphics for educational content.",
-      VercelLink: "https://www.youtube.com/watch?v=mockthumb3",
-    },
-  ],
+  // videos: [
+  //   {
+  //     Image: "/images/video1.png",
+  //     title: "Fashion Reel Edit",
+  //     description:
+  //       "Cinematic color grading and fast-paced cuts for fashion content.",
+  //     VercelLink: "https://www.instagram.com/reel/CmockVideo01/",
+  //   },
+  //   {
+  //     Image: "/images/video2.png",
+  //     title: "Product Promo",
+  //     description: "Motion graphics and transitions for social product ads.",
+  //     VercelLink: "https://www.instagram.com/reel/CmockVideo02/",
+  //   },
+  //   {
+  //     Image: "/images/video3.png",
+  //     title: "Travel Montage",
+  //     description: "Fast cut edits for Instagram travel montage videos.",
+  //     VercelLink: "https://www.instagram.com/reel/CmockVideo03/",
+  //   },
+  // ],
+  // // thumbnails: [
+  // //   {
+  // //     Image: "/images/thumnail1.png",
+  // //     title: "Tech Review Thumbnail",
+  // //     description: "Clean bold style for maximum visibility on YouTube.",
+  // //     VercelLink: "https://www.youtube.com/watch?v=mockthumb1",
+  // //   },
+  // //   {
+  // //     Image: "/images/thumnail1.png",
+  // //     title: "Podcast Thumbnail",
+  // //     description: "Engaging layout for YouTube talk series episodes.",
+  // //     VercelLink: "https://www.youtube.com/watch?v=mockthumb2",
+  // //   },
+  // //   {
+  // //     Image: "/images/thumb3.png",
+  // //     title: "Tutorial Thumbnail",
+  // //     description:
+  // //       "Step-by-step style tutorial graphics for educational content.",
+  // //     VercelLink: "https://www.youtube.com/watch?v=mockthumb3",
+  // //   },
+  // // ],
   logos: [
     {
-      Image: "/images/logo1.png",
-      title: "Cafe Logo",
-      description: "Rustic-modern logo for a local cafe.",
-      VercelLink: "https://dribbble.com/shots/mock-logo1",
+      Image: "/images/logo---03.png",
+      title: "Modern Boutique Logo",
+      description: "A rustic-modern logo for *LUNORA* that blends artisanal elegance with contemporary minimalism.",
+      VercelLink: "https://drive.google.com/file/d/1fl6D39fzVpnOJQJw1TzYEzxMAeFe0PpG/view?usp=sharing",
     },
     {
-      Image: "/images/logo2.png",
-      title: "Tech Startup Logo",
-      description: "Clean and sharp branding for SaaS startup.",
-      VercelLink: "https://dribbble.com/shots/mock-logo2",
+      Image: "/images/logo---01.png",
+      title: "Video Editing Agency Logo",
+      description: "Wordmark logo for Epic Visionary; a cinematic video editing agency with sleek editorial style.",
+      VercelLink: "https://drive.google.com/file/d/1GEnkUQ2GrGgXdCF1i6ZDmRwL0thBZDOb/view?usp=sharing"
+      // VercelLink: "https://dribbble.com/shots/mock-logo2",
     },
     {
-      Image: "/images/logo3.png",
-      title: "Personal Brand Logo",
-      description: "Minimal logotype for a freelancer’s brand.",
-      VercelLink: "https://dribbble.com/shots/mock-logo3",
+      Image: "/images/logo---02.png",
+      title: "Cinematic Production House Logo",
+      description: "Noctivia: Where Stories Begin After Dark.",
+      VercelLink: "https://drive.google.com/file/d/1FFQOEoncca6fgBFAwMdqFjdMSbCBQ1r0/view",
     },
   ],
 };
