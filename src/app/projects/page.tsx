@@ -69,7 +69,7 @@ const projectData = {
   // // ],
   logos: [
     {
-      Image: "/images/logo---03.png",
+      Image: "/images/Logo---03.png",
       title: "Modern Boutique Logo",
       description: "A rustic-modern logo for *LUNORA* that blends artisanal elegance with contemporary minimalism.",
       VercelLink: "https://drive.google.com/file/d/1fl6D39fzVpnOJQJw1TzYEzxMAeFe0PpG/view?usp=sharing",
@@ -82,7 +82,7 @@ const projectData = {
       // VercelLink: "https://dribbble.com/shots/mock-logo2",
     },
     {
-      Image: "/images/logo---02.png",
+      Image: "/images/Logo---02.png",
       title: "Cinematic Production House Logo",
       description: "Noctivia: Where Stories Begin After Dark.",
       VercelLink: "https://drive.google.com/file/d/1FFQOEoncca6fgBFAwMdqFjdMSbCBQ1r0/view",
