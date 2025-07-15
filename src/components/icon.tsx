@@ -11,7 +11,7 @@ export default function ContactIcons() {
       <section className="flex flex-col gap-y-3 items-center p-5 text-white">
         <div><h5 className="text-sm font-thin">SOCIALS LINKS</h5></div>
         <div className="flex flex-row gap-x-4"><a
-          href="mailto:you@example.com"
+          href="mailto:raystechndesign@gmail.com"
           aria-label="Email"
           className="hover:text-[#d38bf9] hover:drop-shadow-[0_0_6px_#d38bf9] transition-colors"
         >
@@ -20,7 +20,7 @@ export default function ContactIcons() {
 
         {/* Instagram */}
         <a
-          href="https://instagram.com/yourhandle"
+          href="https://www.instagram.com/rays._.digital?igsh=NmdmYnc3N21pZm1w "
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"
