@@ -15,14 +15,14 @@ const projectData = {
       title: "Blog Website",
       description:
         "Feature-rich blog site built with dynamic content, SEO-friendly structure, and smooth routing.",
-      VercelLink: "https://raysblog.vercel.app/",
+      VercelLink: "https://blog-website-yumna-shaikhs-projects.vercel.app/",
     },
     {
       Image: "/images/web2.png",
       title: "E-commerce Website",
       description:
         "Custom e-commerce site with cart, wishlist, payment and Sanity CMS.",
-      VercelLink: "https://ecom-project-demo.vercel.app/",
+      VercelLink: "https://nextjs-design-jam-2025-market-place-hfrv.vercel.app/",
     },
   ],
   // videos: [
